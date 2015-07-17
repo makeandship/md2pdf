@@ -1,0 +1,121 @@
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-kerning: normal;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-family: 'Minion Pro';
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+a {
+  color: #f60;
+  text-decoration: none;
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+h1 {
+  background-image: url("../img/make-and-ship.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 100%;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  width: 228px;
+  height: 26px;
+  margin-bottom: 6em;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #f60;
+}
+
+.ruled {
+  border-top: 1px solid #ccc;
+  padding-top: 0.2em;
+  display: block;
+  width: 100%;
+}
+
+h2.secondary {
+  font-weight: normal;
+  color: #333;
+}
+
+h2 + h2 {
+  margin-top: -1em;
+}
+
+h3 {
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+  color: #f60;
+}
+
+h4, h5 {
+  line-height: 1.2em;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+  page-break-after: never;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  page-break-inside: avoid;
+}
+
+.table-header-group {
+  page-break-inside: avoid;
+}
+
+th {
+  text-align: left;
+  padding: 0.2em 1em 0.2em 0;
+}
+
+th:last-child {
+  padding-right: 0;
+}
+
+td {
+  vertical-align: top;
+  padding: 0.2em 1em 0.2em 0;
+}
+
+td:last-child {
+  padding-right: 0;
+  width: 20%;
+}
+
+tr {
+  border-top: 1px solid #ccc;
+}

@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :osx, '10.7'
+
+pod 'BRLOptionParser', :head
+pod 'libextobjc/EXTScope', '~> 0.4'
+
+target :html2pdfTests do
+  pod 'Expecta', '~> 0.3'
+  pod 'Specta', '~> 0.2'
+  pod 'GCDWebServer', '~> 3.2'
+end
+

@@ -1,0 +1,26 @@
+PODS:
+  - BRLOptionParser (HEAD based on 0.3.0)
+  - Expecta (0.3.2)
+  - GCDWebServer (3.2.2):
+    - GCDWebServer/Core (= 3.2.2)
+  - GCDWebServer/Core (3.2.2)
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - Specta (0.5.0)
+
+DEPENDENCIES:
+  - BRLOptionParser (HEAD)
+  - Expecta (~> 0.3)
+  - GCDWebServer (~> 3.2)
+  - libextobjc/EXTScope (~> 0.4)
+  - Specta (~> 0.2)
+
+SPEC CHECKSUMS:
+  BRLOptionParser: 629ad9175b1490397ce9fd0c2880998769f8656f
+  Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
+  GCDWebServer: 5320220ad0d497da8e7beca1396f0c82d4f83730
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+
+COCOAPODS: 0.36.3
