@@ -2,7 +2,7 @@
     "name": "md2pdf",
     "version": "0.1.0",
     "description": "Markdown to PDF generator",
-    "author": "Make + Ship <hello@makeandship.co.uk>"
+    "author": "Make + Ship <hello@makeandship.co.uk>",
     "main": "index.js",
     "contributors": [{
         "name": "Mark Thomsit",
