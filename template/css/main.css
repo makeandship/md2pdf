@@ -56,6 +56,13 @@ h2 {
   width: 100%;
 }
 
+.underlined {
+  border-bottom: 1px solid #ccc;
+  padding-top: 0.2em;
+  display: block;
+  width: 100%;
+}
+
 h2.secondary {
   font-weight: normal;
   color: #333;
@@ -118,4 +125,18 @@ td:last-child {
 
 tr {
   border-top: 1px solid #ccc;
+}
+
+.full-width {
+  margin:0;
+  padding:0;
+}
+
+.full-width, .full-width img {
+  width:605px;
+}
+
+.reference {
+  color:#bbb;
+  font-size:0.8em;
 }
